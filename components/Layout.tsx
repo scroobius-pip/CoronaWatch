@@ -12,7 +12,11 @@ export default ({ children }) => {
                 background-color:${colors.page};
                 color:white;
                 font-family: 'Roboto', sans-serif;
-
+                
+            }
+            p {
+                margin-block-start:0;
+                margin-block-end:0;
                 
             }
             #element { margin:0; padding:0; font-size:100%; line-height:1; }

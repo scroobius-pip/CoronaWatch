@@ -1,5 +1,4 @@
 import dynamic from 'next/dynamic'
-import { Props } from 'react-apexcharts'
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
 
 
@@ -32,11 +31,14 @@ var options = {
 
     chart: {
         type: 'bar',
-        height: 430
+        height: 'auto',
+        stacked: true,
+
     },
     plotOptions: {
         bar: {
             horizontal: true,
+            // barHeight: '100%',
             dataLabels: {
                 position: 'top',
             },
@@ -52,18 +54,20 @@ var options = {
     },
     stroke: {
         show: true,
-        width: 1,
+        // width: 1,
         colors: ['#fff']
     },
     xaxis: {
         categories: ['China', 'Japan'],
         labels: {
+            // minHeight: 200,
             style: {
                 colors: ['#fff', '#fff'],
-                fontSize: 20
+                fontSize: 15
             },
 
         },
+
         axisBorder: {
             // show: false
         },
@@ -92,9 +96,10 @@ var options = {
     yaxis: {
         // show: false,
         labels: {
+
             style: {
                 colors: ['#fff', '#fff'],
-                fontSize: 20,
+                fontSize: 15,
 
 
             }
@@ -103,5 +108,11 @@ var options = {
     },
     theme: {
         palette: 'palette7'
+    },
+    title: {
+        text: 'Corona Virus Activity Per Country',
+        style: {
+            color: '#fff'
+        }
     }
 };

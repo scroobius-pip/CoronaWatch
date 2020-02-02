@@ -1,0 +1,30 @@
+{
+    "dates": [
+        {
+            "date": "21 Jan",
+            "countries": {
+                "china": {
+                    "deaths": 10,
+                    "cases": 100
+                },
+                "japan": {
+                    "deaths": 1,
+                    "cases": 30
+                }
+            }
+        },
+        {
+            "date": "22 Jan",
+            "countries": {
+                "china": {
+                    "deaths": 10,
+                    "cases": 100
+                },
+                "japan": {
+                    "deaths": 1,
+                    "cases": 30
+                }
+            }
+        }
+    ]
+}

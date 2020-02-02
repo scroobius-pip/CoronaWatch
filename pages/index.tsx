@@ -3,6 +3,7 @@ import Section from '../components/Section'
 import { TotalChart, TotalDailyChart } from '../charts'
 import { CountryLinkButton } from '../components/CountryLinkButton'
 import { Tips } from '../components/Tips'
+import ShareButtons from '../components/ShareButtons'
 
 
 export default () => {
@@ -18,8 +19,24 @@ export default () => {
         </Section>
         <Section>
             <Tips />
+
+            <Section>
+                <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
+                    <h3>Spread the word</h3>
+                    <ShareButtons />
+                </div>
+            </Section>
         </Section>
-    </Layout>
+        <Section>
+            <div>
+                Reference: <br />
+                <a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/'>
+                    www.who.int
+                </a>
+            </div>
+
+        </Section>
+    </Layout >
 }
 
 

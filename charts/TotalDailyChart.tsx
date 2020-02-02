@@ -11,7 +11,7 @@ const options = {
     },
     chart: {
 
-
+        height: '100%',
         // type: "area",
         toolbar: {
             show: false
@@ -96,8 +96,8 @@ const series = [
 ]
 
 export default () => {
-    return <div id="chart-daily">
-        <Chart type='area' options={options} series={series} height={350} />
+    return <div style={{}}>
+        <Chart type='area' options={options} series={series} />
     </div>
 }
 

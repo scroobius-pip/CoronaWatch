@@ -5,9 +5,9 @@ import { SeriesData } from './SeriesData'
 
 
 export default () => {
-    return <>
-        <Chart1 />
-    </>
+    return <div style={{ height: '100vh' }}>
+        <Chart type='bar' options={options} series={series1} height={'100%'} />
+    </div>
 }
 
 
@@ -20,10 +20,6 @@ const series1 = [{
 }]
 
 
-const Chart1 = () => {
-    return <Chart type='bar' options={options} series={series1} />
-}
-
 
 
 
@@ -32,13 +28,16 @@ var options = {
 
     chart: {
         type: 'bar',
-        height: 'auto',
+
         stacked: true,
+        // stackType: '100%'
+
 
     },
     plotOptions: {
         bar: {
             horizontal: true,
+            // columnWidth: '70%',
             // barHeight: '100%',
             dataLabels: {
                 position: 'top',
@@ -54,7 +53,7 @@ var options = {
         }
     },
     stroke: {
-        show: true,
+        show: false,
         // width: 1,
         colors: ['#fff']
     },
@@ -62,7 +61,7 @@ var options = {
         categories: SeriesData.countries,
 
         labels: {
-            // minHeight: 200,
+
             show: false,
             style: {
                 colors: ['#fff', '#fff', '#fff'],

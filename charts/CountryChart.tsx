@@ -37,19 +37,23 @@ var options = {
     plotOptions: {
         bar: {
             horizontal: true,
-            // columnWidth: '70%',
+            columnWidth: '70%',
+            // distributed: true,
             // barHeight: '100%',
             dataLabels: {
-                position: 'top',
+                // position: 'bottom',
+
             },
         }
     },
     dataLabels: {
         enabled: true,
-        offsetX: -6,
+        offsetX: 10,
+        // offsetY: -20,
+        textAnchor: 'middle',
         style: {
             fontSize: '12px',
-            colors: ['#fff']
+            colors: ['#f31', 'rgba(27, 153, 139, 0.85)']
         }
     },
     stroke: {
@@ -58,15 +62,13 @@ var options = {
         colors: ['#fff']
     },
     xaxis: {
+
         categories: SeriesData.countries,
 
         labels: {
 
             show: false,
-            style: {
-                colors: ['#fff', '#fff', '#fff'],
-                fontSize: 15
-            },
+
 
         },
 
@@ -80,10 +82,7 @@ var options = {
     tooltip: {
         theme: 'dark'
     },
-    // colors: ['#FD1D1D', '#5851DB'],
-    markers: {
-        colors: ['#F44336',]
-    },
+
     legend: {
         show: true,
         position: 'bottom',
@@ -96,11 +95,13 @@ var options = {
 
     },
     yaxis: {
+        // logarithmic: true,
         // show: false,
         labels: {
 
             style: {
-                // colors: SeriesData.countries.map(_ => generate(_)),
+                colors: SeriesData.countries.map(_ => '#b5b5b5'),
+
                 fontSize: 15,
 
 

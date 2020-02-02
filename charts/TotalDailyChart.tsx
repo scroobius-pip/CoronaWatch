@@ -1,32 +1,35 @@
 import dynamic from 'next/dynamic'
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
 import { SeriesData } from './SeriesData'
-console.log(SeriesData)
+import { colors } from '../styles';
 const options = {
     stroke: {
-        curve: 'stepline',
+        // curve: 'stepline',
     },
     dataLabels: {
         enabled: false
     },
+
     chart: {
 
         height: '100%',
-        // type: "area",
+        type: "area",
         toolbar: {
             show: false
         }
     },
 
     xaxis: {
-        // trim: true,
+        // show: false,
+
+        trim: true,
         type: 'category',
         categories: SeriesData.dates,
         labels: {
-
-            // hideOverlappingLabels: true,
+            // show: false,
+            hideOverlappingLabels: true,
             style: {
-                colors: SeriesData.dates.map(d => '#fff'),
+                // colors: SeriesData.dates.map(d => '#fff'),
                 fontSize: 15
             },
 
@@ -37,16 +40,16 @@ const options = {
         axisTicks: {
             show: false
         },
-        tickAmount: 'dataPoints',
+
 
     },
     yaxis: {
         // show: false,
         labels: {
-
+            align: 'left',
             style: {
                 colors: ['#fff', '#fff'],
-                fontSize: 15,
+                fontSize: 12,
 
 
             }
@@ -54,8 +57,8 @@ const options = {
 
     },
     grid: {
-        show: false,
-
+        // show: false,
+        borderColor: '#757575',
     },
     tooltip: {
         theme: 'dark'
@@ -96,8 +99,8 @@ const series = [
 ]
 
 export default () => {
-    return <div style={{}}>
-        <Chart type='area' options={options} series={series} />
+    return <div style={{ height: '60vh' }}>
+        <Chart type='area' options={options} series={series} height={'100%'} width={'100%'} />
     </div>
 }
 

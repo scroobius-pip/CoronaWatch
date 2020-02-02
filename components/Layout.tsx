@@ -2,18 +2,23 @@ import React from 'react'
 import { colors } from '../styles'
 
 export default ({ children }) => {
-    return <div style={{ width: '100%', maxWidth: 600, margin: 'auto' }}>
-        <h2 style={{ textAlign: 'center' }}>CoronaWatch</h2>
+    return <div style={{ width: '100%', maxWidth: 800, margin: 'auto' }}>
+        <h1 style={{ textAlign: 'center' }}>CoronaWatch:  2019-nCoV </h1>
+        <h4 style={{ textAlign: 'center', opacity: 0.5 }}>Last updated: February 1, 2020, 22:10 GMT</h4>
         {children}
         <style jsx global>
             {`
             body{
                 background-color:${colors.page};
                 color:white;
+                font-family: 'Roboto', sans-serif;
+
                 
             }
             #element { margin:0; padding:0; font-size:100%; line-height:1; }
-
+.apexcharts-menu.apexcharts-menu-open{
+    color:black;
+}
 
             `}
         </style>

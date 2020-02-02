@@ -1,5 +1,11 @@
+import Layout from '../components/Layout'
+import Section from '../components/Section'
+import { CountryChart } from '../charts'
+
 export default () => {
-    return <div>
-        <h1>country</h1>
-    </div>
+    return <Layout>
+        <Section>
+            <CountryChart />
+        </Section>
+    </Layout>
 }

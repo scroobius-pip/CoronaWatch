@@ -1,35 +1,21 @@
-import { useState, useEffect } from 'react';
-import dynamic from 'next/dynamic'
-const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
-
-const options = {
-    chart: {
-        type: 'bar',
-        height: 350
-    },
-    plotOptions: {
-        bar: {
-            horizontal: false,
-        }
-    },
-    dataLabels: {
-        enabled: false
-    },
-    xaxis: {
-        categories: ['Total Infected', 'Total Deaths'],
-    }
-}
-
-
-const series = [{
-    data: [400, 430]
-}]
 
 export default () => {
 
 
-    return <div id="chart">
-        <Chart options={options} series={series} type="bar" height={350} />
+    return <div >
+        <div style={{ textAlign: 'center', color: 'white', padding: 2, borderRadius: '.5em', backgroundColor: 'rgba(253,29,29,0.2)', }}>
+            <p style={{
+                fontSize: 25, fontWeight: 400,
+               
+            }} >Death Count</p>
+            <p style={{ color: '#FD1D1D', fontSize: 50, fontWeight: 600 }}>500</p>
+        </div>
+        <div style={{ textAlign: 'center', color: 'white', padding: 2, }}>
+            <p style={{
+                fontSize: 25, fontWeight: 400
+            }} >Current Cases</p>
+            <p style={{ fontSize: 50, fontWeight: 600 }}>12500</p>
+        </div>
     </div>
 
 }

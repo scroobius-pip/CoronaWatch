@@ -1,5 +1,7 @@
 import dynamic from 'next/dynamic'
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
+import { SeriesData } from './SeriesData'
+
 
 
 export default () => {
@@ -9,12 +11,11 @@ export default () => {
 }
 
 
-
 const series1 = [{
-    data: [44, 55,],
+    data: SeriesData.totalDeaths,
     name: 'Total Deaths'
 }, {
-    data: [53, 32,],
+    data: SeriesData.totalCases,
     name: 'Total Cases'
 }]
 
@@ -58,18 +59,20 @@ var options = {
         colors: ['#fff']
     },
     xaxis: {
-        categories: ['China', 'Japan'],
+        categories: SeriesData.countries,
+
         labels: {
             // minHeight: 200,
+            show: false,
             style: {
-                colors: ['#fff', '#fff'],
+                colors: ['#fff', '#fff', '#fff'],
                 fontSize: 15
             },
 
         },
 
         axisBorder: {
-            // show: false
+            show: false
         },
         axisTicks: {
             show: false
@@ -98,7 +101,7 @@ var options = {
         labels: {
 
             style: {
-                colors: ['#fff', '#fff'],
+                // colors: SeriesData.countries.map(_ => generate(_)),
                 fontSize: 15,
 
 

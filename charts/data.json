@@ -4,12 +4,20 @@
             "date": "21 Jan",
             "countries": {
                 "china": {
-                    "deaths": 10,
-                    "cases": 100
+                    "deaths": 6,
+                    "cases": 278
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 2
                 },
                 "japan": {
-                    "deaths": 1,
-                    "cases": 30
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "republic of korea": {
+                    "deaths": 0,
+                    "cases": 1
                 }
             }
         },
@@ -17,12 +25,750 @@
             "date": "22 Jan",
             "countries": {
                 "china": {
-                    "deaths": 10,
-                    "cases": 100
+                    "deaths": 6,
+                    "cases": 309
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 2
                 },
                 "japan": {
-                    "deaths": 1,
-                    "cases": 30
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 1
+                }
+            }
+        },
+        {
+            "date": "23 Jan",
+            "countries": {
+                "china": {
+                    "deaths": 17,
+                    "cases": 571
+                },
+                "hong kong": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "macau": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "japan": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "usa": {
+                    "deaths": 0,
+                    "cases": 1
+                }
+            }
+        },
+        {
+            "date": "24 Jan",
+            "countries": {
+                "china": {
+                    "deaths": 25,
+                    "cases": 830
+                },
+                "hong kong": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "macau": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "japan": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "usa": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "vietnam": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "singapore": {
+                    "deaths": 0,
+                    "cases": 1
+                }
+            }
+        },
+        {
+            "date": "25 Jan",
+            "countries": {
+                "china": {
+                    "deaths": 41,
+                    "cases": 1287
+                },
+                "hong kong": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "macau": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "japan": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "usa": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "vietnam": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "singapore": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "australia": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "nepal": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "france": {
+                    "deaths": 0,
+                    "cases": 3
+                }
+            }
+        },
+        {
+            "date": "26 Jan",
+            "countries": {
+                "china": {
+                    "deaths": 56,
+                    "cases": 1975
+                },
+                "hong kong": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "macau": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "japan": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "usa": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "vietnam": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "singapore": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "australia": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "nepal": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "france": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "malaysia": {
+                    "deaths": 0,
+                    "cases": 3
+                }
+            }
+        },
+        {
+            "date": "27 Jan",
+            "countries": {
+                "china": {
+                    "deaths": 80,
+                    "cases": 2744
+                },
+                "hong kong": {
+                    "deaths": 0,
+                    "cases": 8
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "macau": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "japan": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "usa": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "vietnam": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "singapore": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "australia": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "nepal": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "france": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "malaysia": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "canada": {
+                    "deaths": 0,
+                    "cases": 1
+                }
+            }
+        },
+        {
+            "date": "28 Jan",
+            "countries": {
+                "china": {
+                    "deaths": 106,
+                    "cases": 4515
+                },
+                "hong kong": {
+                    "deaths": 0,
+                    "cases": 8
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "macau": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 14
+                },
+                "japan": {
+                    "deaths": 0,
+                    "cases": 6
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "usa": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "vietnam": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "singapore": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "australia": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "nepal": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "france": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "malaysia": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "canada": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "cambodia": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "sri lanka": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "germany": {
+                    "deaths": 0,
+                    "cases": 1
+                }
+            }
+        },
+        {
+            "date": "29 Jan",
+            "countries": {
+                "china": {
+                    "deaths": 132,
+                    "cases": 5974
+                },
+                "hong kong": {
+                    "deaths": 0,
+                    "cases": 8
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 8
+                },
+                "macau": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 14
+                },
+                "japan": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "usa": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "vietnam": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "singapore": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "australia": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "nepal": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "france": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "malaysia": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "canada": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "cambodia": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "sri lanka": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "germany": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "uae": {
+                    "deaths": 0,
+                    "cases": 4
+                }
+            }
+        },
+        {
+            "date": "30 Jan",
+            "countries": {
+                "china": {
+                    "deaths": 170,
+                    "cases": 7736
+                },
+                "hong kong": {
+                    "deaths": 0,
+                    "cases": 10
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 8
+                },
+                "macau": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 14
+                },
+                "japan": {
+                    "deaths": 0,
+                    "cases": 11
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "usa": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "vietnam": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "singapore": {
+                    "deaths": 0,
+                    "cases": 10
+                },
+                "australia": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "nepal": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "france": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "malaysia": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "canada": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "cambodia": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "sri lanka": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "germany": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "uae": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "philippines": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "india": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "finland": {
+                    "deaths": 0,
+                    "cases": 1
+                }
+            }
+        },
+        {
+            "date": "31 Jan",
+            "countries": {
+                "china": {
+                    "deaths": 213,
+                    "cases": 9692
+                },
+                "hong kong": {
+                    "deaths": 0,
+                    "cases": 12
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 9
+                },
+                "macau": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 14
+                },
+                "japan": {
+                    "deaths": 0,
+                    "cases": 14
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 11
+                },
+                "usa": {
+                    "deaths": 0,
+                    "cases": 6
+                },
+                "vietnam": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "singapore": {
+                    "deaths": 0,
+                    "cases": 13
+                },
+                "australia": {
+                    "deaths": 0,
+                    "cases": 9
+                },
+                "nepal": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "france": {
+                    "deaths": 0,
+                    "cases": 6
+                },
+                "malaysia": {
+                    "deaths": 0,
+                    "cases": 8
+                },
+                "canada": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "cambodia": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "sri lanka": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "germany": {
+                    "deaths": 0,
+                    "cases": 5
+                },
+                "uae": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "philippines": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "india": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "finland": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "italy": {
+                    "deaths": 0,
+                    "cases": 2
+                }
+            }
+        },
+        {
+            "date": "01 Feb",
+            "countries": {
+                "china": {
+                    "deaths": 259,
+                    "cases": 11791
+                },
+                "hong kong": {
+                    "deaths": 0,
+                    "cases": 13
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 10
+                },
+                "macau": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 19
+                },
+                "japan": {
+                    "deaths": 0,
+                    "cases": 17
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 12
+                },
+                "usa": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "vietnam": {
+                    "deaths": 0,
+                    "cases": 6
+                },
+                "singapore": {
+                    "deaths": 0,
+                    "cases": 16
+                },
+                "australia": {
+                    "deaths": 0,
+                    "cases": 12
+                },
+                "nepal": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "france": {
+                    "deaths": 0,
+                    "cases": 6
+                },
+                "malaysia": {
+                    "deaths": 0,
+                    "cases": 8
+                },
+                "canada": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "cambodia": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "sri lanka": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "germany": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "uae": {
+                    "deaths": 0,
+                    "cases": 4
+                },
+                "philippines": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "india": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "finland": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "italy": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "russia": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "spain": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "sweden": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "uk": {
+                    "deaths": 0,
+                    "cases": 2
                 }
             }
         }

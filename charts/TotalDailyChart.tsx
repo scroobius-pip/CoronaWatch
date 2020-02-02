@@ -1,72 +1,10 @@
 import dynamic from 'next/dynamic'
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
-
-const data = [
-    {
-        date: '21 Jan',
-        deaths: 9,
-        cases: 446
-    },
-    {
-        date: '22 Jan',
-        deaths: 17,
-        cases: 579
-    },
-    {
-        date: '23 Jan',
-        deaths: 25,
-        cases: 446
-    },
-    {
-        date: '24 Jan',
-        deaths: 41,
-        cases: 0
-    },
-    {
-        date: '25 Jan',
-        deaths: 56,
-        cases: 0
-    },
-    {
-        date: '26 Jan',
-        deaths: 80,
-        cases: 0
-    },
-    {
-        date: '27 Jan',
-        deaths: 106,
-        cases: 0
-    },
-    {
-        date: '28 Jan',
-        deaths: 132,
-        cases: 0
-    },
-    {
-        date: '29 Jan',
-        deaths: 170,
-        cases: 0
-    },
-    {
-        date: '30 Jan',
-        deaths: 213,
-        cases: 0
-    },
-    {
-        date: '31 Jan',
-        deaths: 259,
-        cases: 0
-    },
-    {
-        date: '1 Feb',
-        deaths: 304,
-        cases: 0
-    }
-]
-
+import { SeriesData } from './SeriesData'
+console.log(SeriesData)
 const options = {
     stroke: {
-        // curve: 'stepline',
+        curve: 'stepline',
     },
     dataLabels: {
         enabled: false
@@ -83,12 +21,12 @@ const options = {
     xaxis: {
         // trim: true,
         type: 'category',
-        categories: data.map(d => d.date),
+        categories: SeriesData.dates,
         labels: {
 
             // hideOverlappingLabels: true,
             style: {
-                colors: data.map(d => '#fff'),
+                colors: SeriesData.dates.map(d => '#fff'),
                 fontSize: 15
             },
 
@@ -149,11 +87,11 @@ const options = {
 const series = [
     {
         name: "Total Deaths",
-        data: data.map(d => d.deaths)
+        data: SeriesData.deathsByDate
     },
     {
         name: "Total Cases",
-        data: data.map(d => d.cases)
+        data: SeriesData.casesByDate
     },
 ]
 

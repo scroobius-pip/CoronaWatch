@@ -7,7 +7,7 @@ const MetaTags = ()=>{
 <meta name="title" content="CoronaWatch - Corona virus live updates"/>
 <meta name="description" content="Learn more about the corona virus.
 Protect yourself from corona virus with these safety tips."/>
-
+<meta name="keywords" content="wuhan corona virus updates symptoms"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://coronawatch.now.sh/"/>
 <meta property="og:title" content="CoronaWatch - Corona virus live updates"/>

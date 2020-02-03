@@ -38,6 +38,7 @@ class MyDocument extends Document {
                     <style dangerouslySetInnerHTML={{__html:"@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');"}}></style>
                     {/* <script src="https://ssp-nj.webtradehub.com/?c=res&m=async"></script> */}
                     <script data-ad-client="ca-pub-8884456778132522" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <script dangerouslySetInnerHTML={webPushrCode} />
 
                     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157582919-1"></script>
                     <script dangerouslySetInnerHTML={googleAnalyticsCode}></script>
@@ -75,4 +76,9 @@ const googleAnalyticsCode = {
     `
 }
 
+const webPushrCode = {
+    __html: `
+    (function(w,d, s, id) {w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('init','BNFaaJO13dePO46s2UWxbWkva1XHEeWOPD4SbpwRWS8UKFl2yjosTZJE4hMWE0miDsypbzKljC4ybjEgGYLCirU');
+    `
+}
 export default MyDocument

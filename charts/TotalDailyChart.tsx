@@ -4,7 +4,7 @@ import { SeriesData } from './SeriesData'
 import { colors } from '../styles';
 const options = {
     stroke: {
-        // curve: 'stepline',
+        curve: 'straight',
     },
     dataLabels: {
         enabled: false
@@ -15,7 +15,7 @@ const options = {
         height: '100%',
         type: "area",
         toolbar: {
-            show: false
+            // show: false
         }
     },
 

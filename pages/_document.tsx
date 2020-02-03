@@ -37,13 +37,13 @@ class MyDocument extends Document {
                 <Head>
                     <style dangerouslySetInnerHTML={{__html:"@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');"}}></style>
                     {/* <script src="https://ssp-nj.webtradehub.com/?c=res&m=async"></script> */}
-                    {/* <script data-ad-client="ca-pub-8884456778132522" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> */}
+                    <script data-ad-client="ca-pub-8884456778132522" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
                     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157582919-1"></script>
                     <script dangerouslySetInnerHTML={googleAnalyticsCode}></script>
 
                     <script dangerouslySetInnerHTML={infolinksCode}></script>
-                    <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+                    {/* <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script> */}
             <MetaTags/>
                 </Head>
                 <body>

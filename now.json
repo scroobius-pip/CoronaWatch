@@ -1,4 +1,10 @@
 {
     "name": "coronawatch",
-    "alias": "coronawatch.now.sh"
+    "alias": "coronawatch.now.sh",
+    "routes": [
+        {
+            "src": "/webpushr-sw.js",
+            "dest": "static/webpushr-sw.js"
+        }
+    ]
 }

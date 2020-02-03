@@ -33,6 +33,6 @@ export const Tips = () => {
               }
             `}
         </style>
-        <p style={{ textAlign: 'right', fontSize: 15 }}> source - www.cdc.gov</p>
+        {/* <p style={{ textAlign: 'right', fontSize: 15 }}> source - www.cdc.gov</p> */}
     </div>;
 };

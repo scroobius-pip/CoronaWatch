@@ -27,12 +27,12 @@ const options = {
         categories: SeriesData.dates,
         labels: {
             // show: false,
-            rotate: -45,
+            rotate: -70,
             rotateAlways: true,
             hideOverlappingLabels: true,
             style: {
                 // colors: SeriesData.dates.map(d => '#fff'),
-                fontSize: 15
+                fontSize: 10
             },
 
         },
@@ -52,7 +52,7 @@ const options = {
             align: 'left',
             style: {
                 colors: ['#fff', '#fff'],
-                fontSize: 12,
+                fontSize: 10,
 
 
             }
@@ -84,6 +84,9 @@ const options = {
     },
     title: {
         text: 'Total Cases and Deaths Daily',
+        // offsetY: -10,
+        // floating: true,
+        // align: 'right',
         style: {
             color: '#fff'
         }

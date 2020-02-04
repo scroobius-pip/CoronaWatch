@@ -890,7 +890,7 @@
             "countries": {
                 "china": {
                     "deaths": 361,
-                    "cases": 17238
+                    "cases": 20438
                 },
                 "hong kong": {
                     "deaths": 1,
@@ -1035,7 +1035,7 @@
                 },
                 "vietnam": {
                     "deaths": 0,
-                    "cases": 8
+                    "cases": 9
                 },
                 "singapore": {
                     "deaths": 0,
@@ -1103,7 +1103,7 @@
                 },
                 "sweden": {
                     "deaths": 0,
-                    "cases": 2
+                    "cases": 1
                 },
                 "uk": {
                     "deaths": 0,

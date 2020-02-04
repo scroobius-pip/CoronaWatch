@@ -27,11 +27,11 @@ const options = {
         categories: SeriesData.dates,
         labels: {
             // show: false,
-            rotate: -70,
+            rotate: -65,
             rotateAlways: true,
             hideOverlappingLabels: true,
             style: {
-                // colors: SeriesData.dates.map(d => '#fff'),
+                colors: SeriesData.dates.map(d => 'grey'),
                 fontSize: 10
             },
 

@@ -889,11 +889,11 @@
             "date": "03 Feb",
             "countries": {
                 "china": {
-                    "deaths": 361,
-                    "cases": 17205
+                    "deaths": 425,
+                    "cases": 20438
                 },
                 "hong kong": {
-                    "deaths": 0,
+                    "deaths": 1,
                     "cases": 15
                 },
                 "taiwan": {

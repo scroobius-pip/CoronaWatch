@@ -8,13 +8,16 @@ import { colors } from '../styles'
 
 export default () => {
     return <Layout>
-        <ShareButtons />
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+
             <CountryLinkButton />
         </div>
         <Section>
             <TotalChart />
         </Section>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <ShareButtons />
+        </div>
         <Section>
             <TotalDailyChart />
         </Section>

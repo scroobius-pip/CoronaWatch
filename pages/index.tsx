@@ -4,7 +4,7 @@ import { TotalChart, TotalDailyChart } from '../charts'
 import { CountryLinkButton } from '../components/CountryLinkButton'
 import { Tips } from '../components/Tips'
 import ShareButtons from '../components/ShareButtons'
-
+import { colors } from '../styles'
 
 export default () => {
     return <Layout>
@@ -28,11 +28,22 @@ export default () => {
             </Section>
         </Section>
         <Section>
-            <div>
+            <div style={{ display: 'flex', alignItems: 'flex-end', flexDirection: 'column' }}>
                 Reference: <br />
                 <a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/'>
                     www.who.int
                 </a>
+                <p>www.cdc.gov</p>
+                <style jsx>
+                    {`
+                    a{
+                        color:${colors.primary}
+                    }
+                    a:visited {
+                        color:${colors.primary}
+                    }
+                    `}
+                </style>
             </div>
 
         </Section>

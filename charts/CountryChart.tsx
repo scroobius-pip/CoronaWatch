@@ -29,7 +29,7 @@ var options = {
     chart: {
         type: 'bar',
 
-        stacked: true,
+        // stacked: true,
         // stackType: '100%'
 
 
@@ -53,6 +53,7 @@ var options = {
         textAnchor: 'middle',
         style: {
             fontSize: '12px',
+            textAlign: 'left',
             colors: ['#f31', 'rgba(27, 153, 139, 0.85)']
         }
     },

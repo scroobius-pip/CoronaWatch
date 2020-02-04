@@ -8,8 +8,8 @@ import { colors } from '../styles'
 
 export default () => {
     return <Layout>
+        <ShareButtons />
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-            <ShareButtons />
             <CountryLinkButton />
         </div>
         <Section>

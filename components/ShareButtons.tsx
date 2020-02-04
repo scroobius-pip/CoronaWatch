@@ -20,7 +20,7 @@ export default () => {
         <FacebookShareButton quote='' hashtag='#Coronavirus' {...ButtonProps} >
             <FacebookIcon {...IconProps} />
         </FacebookShareButton>
-        <TwitterShareButton {...ButtonProps} hashtags={['Coronavirus', 'Coronavirus', 'NoMeat_NoCoronaVirus']} >
+        <TwitterShareButton {...ButtonProps} hashtags={['Coronavirus', 'coronaviruschina', 'wuhan', 'CoronavirusOutbreak']} >
             <TwitterIcon {...IconProps} />
         </TwitterShareButton>
         <WhatsappShareButton separator=' ' {...ButtonProps}>

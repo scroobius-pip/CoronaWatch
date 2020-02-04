@@ -27,6 +27,8 @@ const options = {
         categories: SeriesData.dates,
         labels: {
             // show: false,
+            rotate: -45,
+            rotateAlways: true,
             hideOverlappingLabels: true,
             style: {
                 // colors: SeriesData.dates.map(d => '#fff'),
@@ -46,6 +48,7 @@ const options = {
     yaxis: {
         // show: false,
         labels: {
+
             align: 'left',
             style: {
                 colors: ['#fff', '#fff'],

@@ -1,7 +1,7 @@
 import Layout from '../components/Layout'
 import Section from '../components/Section'
 import { TotalChart, TotalDailyChart } from '../charts'
-import { CountryLinkButton } from '../components/CountryLinkButton'
+import { LinkButton } from '../components/CountryLinkButton'
 import { Tips } from '../components/Tips'
 import ShareButtons from '../components/ShareButtons'
 import { colors } from '../styles'
@@ -10,7 +10,8 @@ export default () => {
     return <Layout>
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
 
-            <CountryLinkButton />
+
+            <LinkButton text="Coronavirus Facts" href="/facts" />
         </div>
         <Section>
             <TotalChart />
@@ -21,6 +22,9 @@ export default () => {
         <Section>
             <TotalDailyChart />
         </Section>
+        <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 20 }}>
+            <LinkButton text="Country Statistics" href="/country" />
+        </div>
         <Section>
             <Tips />
 

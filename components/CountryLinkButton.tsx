@@ -1,6 +1,6 @@
 import Link from 'next/link';
-export const CountryLinkButton = () => {
-    return <Link href='/country'>
+export const LinkButton = ({ href = '/', text = '' }) => {
+    return <Link href={href}>
 
 
         <div className='country-button' style={{
@@ -8,10 +8,10 @@ export const CountryLinkButton = () => {
             padding: 10,
             justifyContent: 'center',
             alignItems: 'center',
-            width: 200,
+            // width: 200,
             borderRadius: '2em'
         }}>
-            <span>Country Statistics</span>
+            <span>{text}</span>
             <img style={{ marginLeft: 10 }} src={require('../assets/arrow.svg')} />
             <style jsx>
                 {`

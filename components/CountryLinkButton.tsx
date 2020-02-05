@@ -11,7 +11,7 @@ export const CountryLinkButton = () => {
             width: 200,
             borderRadius: '2em'
         }}>
-            <span>Statistics Per Country</span>
+            <span>Country Statistics</span>
             <img style={{ marginLeft: 10 }} src={require('../assets/arrow.svg')} />
             <style jsx>
                 {`

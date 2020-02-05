@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import propellerAdsCode from '../propellerAdsCode'
 
 const MetaTags = ()=>{
     return (
@@ -45,6 +46,7 @@ class MyDocument extends Document {
                     {/* <script dangerouslySetInnerHTML={googleAnalyticsCode}></script> */}
 
                     <script dangerouslySetInnerHTML={infolinksCode}></script>
+                    <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCode}></script>
                     {/* <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script> */}
             <MetaTags/>
                 </Head>

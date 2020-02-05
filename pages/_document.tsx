@@ -41,8 +41,8 @@ class MyDocument extends Document {
                     <script data-ad-client="ca-pub-8884456778132522" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <script dangerouslySetInnerHTML={webPushrCode} />
 
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157582919-1"></script>
-                    <script dangerouslySetInnerHTML={googleAnalyticsCode}></script>
+                    {/* <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157582919-1"></script> */}
+                    {/* <script dangerouslySetInnerHTML={googleAnalyticsCode}></script> */}
 
                     <script dangerouslySetInnerHTML={infolinksCode}></script>
                     {/* <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script> */}

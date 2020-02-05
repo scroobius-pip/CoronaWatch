@@ -13,14 +13,15 @@ Protect yourself from corona virus with these safety tips."/>
 <meta property="og:title" content="CoronaWatch - Corona virus live updates"/>
 <meta property="og:description" content="Learn more about the corona virus.
 Protect yourself from corona virus with these safety tips."/>
-<meta property="og:image" content="https://i.imgur.com/aTUFPga.png"/>
+<meta property="og:image" content="https://i.imgur.com/v3v5wna.png"/>
 
 <meta property="twitter:card" content="summary_large_image"/>
 <meta property="twitter:url" content="https://coronawatch.now.sh/"/>
 <meta property="twitter:title" content="CoronaWatch - Corona virus live updates"/>
 <meta property="twitter:description" content={`Learn more about the corona virus.
 Protect yourself from corona virus with these safety tips.`}/>
-<meta property="twitter:image" content="https://i.imgur.com/aTUFPga.png"/>
+<meta name="propeller" content="715731f6af97250ac66f2c8363ff8b4b"></meta>
+<meta property="twitter:image" content="https://i.imgur.com/v3v5wna.png"/>
         </>
     )
 }

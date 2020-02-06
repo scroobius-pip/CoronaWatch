@@ -4,9 +4,16 @@ import { CountryChart } from '../charts'
 import { Tips } from '../components/Tips'
 import ShareButtons from '../components/ShareButtons'
 import { GoBackButton } from '../components/GoBackButton'
+import Head from 'next/head'
+import propellerAdsCodeDirect from '../propellerAdsCodeDirect'
 
 export default () => {
     return <Layout>
+        <Head>
+            {/* <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCodeDirect}>
+
+            </script> */}
+        </Head>
         <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
             <GoBackButton />
         </div>

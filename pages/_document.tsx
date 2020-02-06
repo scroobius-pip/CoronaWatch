@@ -1,6 +1,6 @@
 // @ts-nocheck
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import propellerAdsCode from '../propellerAdsCode'
+import propellerAdsCode from '../propellerAdsCodePush'
 const MetaTags = ()=>{
     return (
         <>                
@@ -44,9 +44,6 @@ class MyDocument extends Document {
                     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157582919-1"></script>
                     <script dangerouslySetInnerHTML={googleAnalyticsCode}></script>
 
-                   
-                    <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCode}></script>
-                    <script src="//pushsar.com/ntfc.php?p=3069587" data-cfasync="false" async onerror="_cafbazpu()" onload="_wukgo()"></script>
             <MetaTags/>
                 </Head>
                 <body>

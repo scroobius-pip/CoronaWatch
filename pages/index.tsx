@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Layout from '../components/Layout'
 import Section from '../components/Section'
 import { TotalChart, TotalDailyChart } from '../charts'
@@ -5,9 +6,15 @@ import { LinkButton } from '../components/CountryLinkButton'
 import { Tips } from '../components/Tips'
 import ShareButtons from '../components/ShareButtons'
 import { colors } from '../styles'
+import Head from 'next/head'
+import propellerAdsCode from '../propellerAdsCodePush'
 
 export default () => {
     return <Layout>
+        <Head>
+            {/* <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCode}></script>
+            <script src="//pushsar.com/ntfc.php?p=3069587" data-cfasync="false" async onerror="_cafbazpu()" onload="_wukgo()"></script> */}
+        </Head>
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
 
 

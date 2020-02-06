@@ -9,11 +9,11 @@ import propellerAdsCodeDirect from '../propellerAdsCodeDirect'
 
 export default () => {
     return <Layout>
-        <Head>
+        {/* <Head>
             <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCodeDirect}>
 
             </script>
-        </Head>
+        </Head> */}
         <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
             <GoBackButton />
         </div>

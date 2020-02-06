@@ -8,12 +8,14 @@ import ShareButtons from '../components/ShareButtons'
 import { colors } from '../styles'
 import Head from 'next/head'
 import propellerAdsCode from '../propellerAdsCodePush'
+import propellerAdsCodeDirect from '../propellerAdsCodeDirect'
 
 export default () => {
     return <Layout>
         <Head>
             <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCode}></script>
             <script src="//propu.sh/ntfc.php?p=3069659" data-cfasync="false" async onerror="_ymndl()" onload="_mvlrmjwg()"></script>
+          
         </Head>
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
 

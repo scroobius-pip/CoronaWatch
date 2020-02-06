@@ -12,8 +12,8 @@ import propellerAdsCode from '../propellerAdsCodePush'
 export default () => {
     return <Layout>
         <Head>
-            {/* <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCode}></script>
-            <script src="//propu.sh/ntfc.php?p=3069659" data-cfasync="false" async onerror="_ymndl()" onload="_mvlrmjwg()"></script> */}
+            <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCode}></script>
+            <script src="//propu.sh/ntfc.php?p=3069659" data-cfasync="false" async onerror="_ymndl()" onload="_mvlrmjwg()"></script>
         </Head>
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
 

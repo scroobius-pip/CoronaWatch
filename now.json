@@ -3,8 +3,8 @@
     "alias": "coronawatch.now.sh",
     "routes": [
         {
-            "src": "/webpushr-sw.js",
-            "dest": "static/webpushr-sw.js"
+            "src": "/sw.js",
+            "dest": "static/sw.js"
         }
     ]
 }

@@ -1,6 +1,6 @@
+// @ts-nocheck
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import propellerAdsCode from '../propellerAdsCode'
-
 const MetaTags = ()=>{
     return (
         <>                
@@ -38,34 +38,26 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <style dangerouslySetInnerHTML={{__html:"@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');"}}></style>
-                    {/* <script src="https://ssp-nj.webtradehub.com/?c=res&m=async"></script> */}
-                    <script data-ad-client="ca-pub-8884456778132522" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                   
                     <script dangerouslySetInnerHTML={webPushrCode} />
 
-                    {/* <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157582919-1"></script> */}
-                    {/* <script dangerouslySetInnerHTML={googleAnalyticsCode}></script> */}
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157582919-1"></script>
+                    <script dangerouslySetInnerHTML={googleAnalyticsCode}></script>
 
-                    <script dangerouslySetInnerHTML={infolinksCode}></script>
-                    {/* <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCode}></script> */}
-                    {/* <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script> */}
+                   
+                    <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCode}></script>
+                    <script src="//pushsar.com/ntfc.php?p=3069587" data-cfasync="false" async onerror="_cafbazpu()" onload="_wukgo()"></script>
             <MetaTags/>
                 </Head>
                 <body>
                     <Main />
                     <NextScript />
-
                 </body>
             </Html>
         )
     }
 }
 
-const infolinksCode = {
-    __html: `
-    var infolinks_pid = 3234010;
-var infolinks_wsid = 0;
-    `
-}
 
 const googleAnalyticsCode = {
     __html: `

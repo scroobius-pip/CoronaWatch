@@ -39,7 +39,7 @@ class MyDocument extends Document {
                 <Head>
                     <style dangerouslySetInnerHTML={{__html:"@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');"}}></style>
                    
-                    <script dangerouslySetInnerHTML={webPushrCode} />
+                    {/* <script dangerouslySetInnerHTML={webPushrCode} /> */}
 
                     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157582919-1"></script>
                     <script dangerouslySetInnerHTML={googleAnalyticsCode}></script>

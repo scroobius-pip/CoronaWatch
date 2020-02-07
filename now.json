@@ -5,6 +5,10 @@
         {
             "src": "/sw.js",
             "dest": "static/sw.js"
+        },
+        {
+            "src": "/ZfMqvtRmARw6hWp73iqNXv6e.txt",
+            "dest": "static/ZfMqvtRmARw6hWp73iqNXv6e.txt"
         }
     ]
 }

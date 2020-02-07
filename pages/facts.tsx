@@ -99,11 +99,11 @@ export default () => {
                     <h3 style={{ opacity: 0.8 }}>Latest News</h3>
                 </div>
                 <ul style={{ lineHeight: '2em', fontWeight: 400, }}>
-                    <li> Passengers aboard infected japanese cruise ship <a href="https://www.japantimes.co.jp/news/2020/02/05/national/science-health/quarantined-japanese-cruise-ship-infected-coronavirus/#.XjoKyeSSniA">quarantined</a></li>
+                    <li>Coronavirus: Sixty-One People on Cruise Ship Off Japan Have Virus, <a href="https://www.nytimes.com/2020/02/07/world/asia/coronavirus-china.html">Live Updates</a></li>
 
-                    <li>As Death Toll Rises, More Calls to Evacuate <a href="https://www.nytimes.com/2020/02/04/world/asia/coronavirus-china.html">China</a></li>
-                    <li>Hong Kong hospital staff strike to demand closure of China  <a href="https://www.bbc.com/news/world-asia-51349154">border</a></li>
-                    <li>China admits "shortcomings" as global efforts to stop deadly coronavirus ramp <a href="https://www.cbsnews.com/live-updates/coronavirus-usa-confirmed-cases-news-death-toll-latest-2020-02-04/">up</a></li>
+                    <li>Wuhan coronavirus whistleblower doctor dies as confirmed cases top 30,000. <a href="https://edition.cnn.com/2020/02/06/asia/wuhan-coronavirus-update-intl-hnk/index.html">More on this</a></li>
+                    <li>China Begins Testing an Antiviral Drug in Coronavirus <a href="https://www.nytimes.com/2020/02/06/health/coronavirus-treatments.html">Patients</a></li>
+                    <li>WHO to accelerate research and innovation for new <a href="https://www.who.int/news-room/detail/06-02-2020-who-to-accelerate-research-and-innovation-for-new-coronavirus">coronavirus</a></li>
 
                 </ul>
                 <style jsx>

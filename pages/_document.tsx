@@ -41,13 +41,15 @@ class MyDocument extends Document {
                 <Head>
                     <style dangerouslySetInnerHTML={{__html:"@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');"}}></style>
                    
-                    {/* <script dangerouslySetInnerHTML={webPushrCode} /> */}
+                  
+                    <script dangerouslySetInnerHTML={hotJarCode}></script>
 
                     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157582919-1"></script>
                     <script dangerouslySetInnerHTML={googleAnalyticsCode}></script>
-                    <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCodeDirect}>
 
-</script>
+                    <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCodeDirect}></script>
+                    <script data-cfasync="false" src="//d141wsrw9m4as6.cloudfront.net/?wrswd=837439"></script>
+
             <MetaTags/>
                 </Head>
                 <body>
@@ -77,4 +79,18 @@ const webPushrCode = {
     (function(w,d, s, id) {w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('init','BNFaaJO13dePO46s2UWxbWkva1XHEeWOPD4SbpwRWS8UKFl2yjosTZJE4hMWE0miDsypbzKljC4ybjEgGYLCirU');
     `
 }
+
+const hotJarCode = {
+    __html:`
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1677368,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    `
+}
+
 export default MyDocument

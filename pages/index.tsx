@@ -35,13 +35,13 @@ export default () => {
 
             <Section>
                 <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
-                    <h3>Spread the word</h3>
+                    <h3>Share these tips:</h3>
                     <ShareButtons />
                 </div>
             </Section>
         </Section>
         <Section>
-            <div style={{ display: 'flex', alignItems: 'flex-end', flexDirection: 'column' }}>
+            <div id="tips" style={{ display: 'flex', alignItems: 'flex-end', flexDirection: 'column' }}>
                 Reference: <br />
                 <a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/'>
                     www.who.int

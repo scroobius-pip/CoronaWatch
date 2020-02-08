@@ -7,6 +7,10 @@
             "dest": "static/sw.js"
         },
         {
+            "src": "/webpushr-sw.js",
+            "dest": "static/webpushr-sw.js"
+        },
+        {
             "src": "/ZfMqvtRmARw6hWp73iqNXv6e.txt",
             "dest": "static/ZfMqvtRmARw6hWp73iqNXv6e.txt"
         }

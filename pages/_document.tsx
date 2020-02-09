@@ -39,16 +39,17 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
+                    {/* Google Font roboto */}
                     <style dangerouslySetInnerHTML={{__html:"@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');"}}></style>
                    
-                  
+                  {/* Hotjar Code */}
                     <script dangerouslySetInnerHTML={hotJarCode}></script>
 
+{/* Analytics Code */}
                     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157582919-1"></script>
                     <script dangerouslySetInnerHTML={googleAnalyticsCode}></script>
 
-                    <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCodeDirect}></script>
-                    <script data-cfasync="false" src="//d141wsrw9m4as6.cloudfront.net/?wrswd=837439"></script>
+<script dangerouslySetInnerHTML={webPushrCode}></script>
 
             <MetaTags/>
                 </Head>

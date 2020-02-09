@@ -47,11 +47,7 @@ const FactSection = ({ heading = '', children }) => {
 
 export default () => {
     return <Layout>
-        <Head>
-            {/* <script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsCodeDirect}>
-
-            </script> */}
-        </Head>
+    
         <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
             <GoBackButton />
         </div>

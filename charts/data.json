@@ -425,7 +425,7 @@
                 },
                 "vietnam": {
                     "deaths": 0,
-                    "cases": 2
+                    "cases": 3
                 },
                 "singapore": {
                     "deaths": 0,
@@ -1387,6 +1387,127 @@
                 "uae": {
                     "deaths": 0,
                     "cases": 5
+                },
+                "philippines": {
+                    "deaths": 1,
+                    "cases": 3
+                },
+                "india": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "finland": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "italy": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "russia": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "spain": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "sweden": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "uk": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "belgium": {
+                    "deaths": 0,
+                    "cases": 1
+                }
+            }
+        },
+        {
+            "date": "08 Feb",
+            "countries": {
+                "china": {
+                    "deaths": 722,
+                    "cases": 34546
+                },
+                "hong kong": {
+                    "deaths": 1,
+                    "cases": 26
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 16
+                },
+                "macau": {
+                    "deaths": 0,
+                    "cases": 10
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 32
+                },
+                "japan": {
+                    "deaths": 0,
+                    "cases": 25
+                },
+                "japan(International conveyance)": {
+                    "deaths": 0,
+                    "cases": 64
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 24
+                },
+                "usa": {
+                    "deaths": 0,
+                    "cases": 12
+                },
+                "vietnam": {
+                    "deaths": 0,
+                    "cases": 13
+                },
+                "singapore": {
+                    "deaths": 0,
+                    "cases": 33
+                },
+                "australia": {
+                    "deaths": 0,
+                    "cases": 15
+                },
+                "nepal": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "france": {
+                    "deaths": 0,
+                    "cases": 6
+                },
+                "malaysia": {
+                    "deaths": 0,
+                    "cases": 15
+                },
+                "canada": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "cambodia": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "sri lanka": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "germany": {
+                    "deaths": 0,
+                    "cases": 14
+                },
+                "uae": {
+                    "deaths": 0,
+                    "cases": 7
                 },
                 "philippines": {
                     "deaths": 1,

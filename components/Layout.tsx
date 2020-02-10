@@ -4,7 +4,7 @@ import { colors } from '../styles'
 export default ({ children }) => {
     return <div style={{ width: '100%', maxWidth: 800, margin: 'auto' }}>
         <h1 style={{ textAlign: 'center' }}>CoronaWatch:  2019-nCoV </h1>
-        <h4 style={{ textAlign: 'center', opacity: 0.5 }}>Last updated: February 10, 2020, 04:30 GMT</h4>
+        <h4 style={{ textAlign: 'center', opacity: 0.5 }}>Last updated: February 10, 2020, 21:50 GMT</h4>
         {children}
         <style jsx global>
             {`

@@ -5,7 +5,7 @@ import { Tips } from '../components/Tips'
 import ShareButtons from '../components/ShareButtons'
 import { GoBackButton } from '../components/GoBackButton'
 import Head from 'next/head'
-import propellerAdsCodeDirect from '../propellerAdsCodeDirect'
+import propellerAdsCodeDirect from '../propellerAdsPopover'
 
 export default () => {
     return <Layout>

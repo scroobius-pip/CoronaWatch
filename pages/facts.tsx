@@ -6,7 +6,7 @@ import ShareButtons from '../components/ShareButtons'
 import { GoBackButton } from '../components/GoBackButton'
 import { colors } from '../styles'
 import Head from 'next/head'
-import propellerAdsCodeDirect from '../propellerAdsCodeDirect'
+import propellerAdsCodeDirect from '../propellerAdsPopover'
 
 
 const FactSection = ({ heading = '', children }) => {

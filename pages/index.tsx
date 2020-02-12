@@ -8,7 +8,7 @@ import ShareButtons from '../components/ShareButtons'
 import { colors } from '../styles'
 import Head from 'next/head'
 import propellerAdsCode from '../propellerAdsCodePush'
-import propellerAdsCodeDirect from '../propellerAdsCodeDirect'
+import propellerAdsCodeDirect from '../propellerAdsPopover'
 
 export default () => {
     return <Layout>

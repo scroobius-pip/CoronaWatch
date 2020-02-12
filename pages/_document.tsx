@@ -1,7 +1,7 @@
 // @ts-nocheck
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import propellerAdsCode from '../propellerAdsCodePush'
-import propellerAdsCodeDirect from '../propellerAdsCodeDirect'
+
+import propellerAdsPopover from '../propellerAdsPopover'
 
 const MetaTags = ()=>{
     return (
@@ -50,7 +50,7 @@ class MyDocument extends Document {
                     <script dangerouslySetInnerHTML={googleAnalyticsCode}></script>
 
 <script dangerouslySetInnerHTML={webPushrCode}></script>
-
+<script data-cfasync="false" type="text/javascript" dangerouslySetInnerHTML={propellerAdsPopover}></script>
             <MetaTags/>
                 </Head>
                 <body>

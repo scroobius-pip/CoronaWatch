@@ -2397,6 +2397,131 @@
                     "cases": 1
                 }
             }
+        },
+        {
+            "date": "16 Feb",
+            "countries": {
+                "china": {
+                    "deaths": 1665,
+                    "cases": 68500
+                },
+                "hong kong": {
+                    "deaths": 1,
+                    "cases": 56
+                },
+                "taiwan": {
+                    "deaths": 0,
+                    "cases": 18
+                },
+                "macau": {
+                    "deaths": 0,
+                    "cases": 10
+                },
+                "thailand": {
+                    "deaths": 0,
+                    "cases": 34
+                },
+                "japan": {
+                    "deaths": 1,
+                    "cases": 53
+                },
+                "japan(cruise ship)": {
+                    "deaths": 0,
+                    "cases": 355
+                },
+                "south korea": {
+                    "deaths": 0,
+                    "cases": 29
+                },
+                "usa": {
+                    "deaths": 0,
+                    "cases": 15
+                },
+                "vietnam": {
+                    "deaths": 0,
+                    "cases": 16
+                },
+                "singapore": {
+                    "deaths": 0,
+                    "cases": 72
+                },
+                "australia": {
+                    "deaths": 0,
+                    "cases": 15
+                },
+                "nepal": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "france": {
+                    "deaths": 1,
+                    "cases": 12
+                },
+                "malaysia": {
+                    "deaths": 0,
+                    "cases": 22
+                },
+                "canada": {
+                    "deaths": 0,
+                    "cases": 7
+                },
+                "cambodia": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "sri lanka": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "germany": {
+                    "deaths": 0,
+                    "cases": 16
+                },
+                "uae": {
+                    "deaths": 0,
+                    "cases": 8
+                },
+                "philippines": {
+                    "deaths": 1,
+                    "cases": 3
+                },
+                "india": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "finland": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "italy": {
+                    "deaths": 0,
+                    "cases": 3
+                },
+                "russia": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "spain": {
+                    "deaths": 0,
+                    "cases": 2
+                },
+                "sweden": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "uk": {
+                    "deaths": 0,
+                    "cases": 9
+                },
+                "belgium": {
+                    "deaths": 0,
+                    "cases": 1
+                },
+                "egypt": {
+                    "deaths": 0,
+                    "cases": 1
+                }
+            }
         }
     ]
 }
